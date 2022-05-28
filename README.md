@@ -15,4 +15,21 @@ This is a landing page for Peddle Technologies built with react.
         - Compound
     - Layout
     - Pages
+        - Home
+        - About
+        - Contact
+        
+## LIBRARIES AND DEPENDENCIES
+- Bootstrap
+- React-Bootstrap
+- Font-Awesome Icons
+- EditorConfig
 
+## HOW TO RUN THE APPLICATIION
+- navigate to the root folder
+- enter npm start in the terminal
+
+## IMPROVEMENTS
+- Dockerizing the application
+- Use of CI/CD
+- Testing
