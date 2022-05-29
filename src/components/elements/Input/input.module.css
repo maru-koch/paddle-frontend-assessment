@@ -1,0 +1,12 @@
+
+.userInput{
+    background-color: transparent;
+    border:0;
+    border-bottom: 2px solid var(--outline-color);
+    width: 180px;
+    color: var(--outline-color);
+    font-size:0.7rem;
+    padding: 10px;
+    font-family: Poppins;
+    font-weight: 300;
+}

@@ -1,5 +1,5 @@
 
-import classes from './socialMedia.module.css'
+import classes from './socialMedia.module.css';
 
 export const SocialMedia =()=>{
 
@@ -9,21 +9,21 @@ export const SocialMedia =()=>{
         <setion className={classes.container}>
             <div className={classes.wrapper}>
                 <div className={classes.icons}>
-                    <i className ="fab fa-youtube"></i>
+                   <i class="fab fa-youtube"></i>
                 </div>
                 <div className={classes.icons}>
-                    <i className ="fab fa-facebook"></i>
+                    <i className ="fab fa-facebook-square"></i>
                 </div>
                 <div className={classes.icons}>
                     <i className ="fab fa-linkedin"></i>
                 </div>
                 <div className={classes.icons}>
-                    <i className ="fab fa-instagram"></i>
+                    <i class="fa-brands fa-instagram"></i>
                 </div>
                 <div className={classes.icons}>
-                    <i className ="fab fa-twitter"></i>
+                    <i className ="fab fa-twitter-square"></i>
                 </div>
             </div>
         </setion>
     )
-}
+};

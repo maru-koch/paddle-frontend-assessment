@@ -1,9 +1,10 @@
 import PropTypes from 'prop-types';
+import classes from './timeDigits.module.css'
 
-export const Digits =({digit, text})=>{
+export const Time =({digit, text})=>{
     return(
-        <section>
-            <div>
+        <section className={classes.container}>
+            <div className ={classes.wrapper}>
                 <h3>{digit}</h3>
                 <p>{text}</p>
             </div>
@@ -11,7 +12,7 @@ export const Digits =({digit, text})=>{
     )
 };
 
-Digits.propTypes ={
+Time.propTypes ={
     digit: PropTypes.number.isRequired,
     text: PropTypes.string.isRequired
 }

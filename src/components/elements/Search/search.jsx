@@ -1,6 +1,6 @@
 
 import {useState} from 'react'
-import classes from '.search.module.css'
+import classes from './search.module.css'
 
 export const Search =({text, name, handleInput})=>{
 

@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;800&family=Open+Sans:wght@300;400;500;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;1,400&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;600;800&family=Open+Sans:wght@300;400;500;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;1,400&display=swap');
 :root{
   --main-color: #1E0D3D;
   --button-color: #2F38C1;
-  --outline-color:#483A5D;
+  --outline-color:#493764;
+  --word-color:#9994A3;
   --accent-color:#E55EF8;
   --title-color:#1F232C;
   --subtitle-color: #888B90;
@@ -11,4 +11,19 @@
   --background-color:#FAFAFA;
   --gradient-color: linear-gradient(90deg, rgba(27, 13, 62, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(34, 62, 113, 1) 100%);
 
+}
+
+/* GLOBAL STYLES */
+
+body{
+    margin:0 auto;
+    background-color: var(--main-color); 
+}
+
+h1, h2, h3{
+  font-family: Poppins;
+}
+
+p{
+  font-family: Mulish;
 }

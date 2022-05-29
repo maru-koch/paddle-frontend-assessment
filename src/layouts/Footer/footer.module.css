@@ -1,0 +1,14 @@
+
+.container{
+    width: 100vw;
+    display:grid;
+    place-items: center;
+    margin-top: 150px;
+}
+
+.wrapper{
+    max-width: 500px;
+    display: grid;
+    place-items: center;
+}
+

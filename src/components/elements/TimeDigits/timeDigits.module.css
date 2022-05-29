@@ -1,0 +1,29 @@
+.container{
+    width: 90px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 5px;
+   
+}
+
+.wrapper{
+    display:grid;
+    place-items: center;
+    padding:10px;
+}
+
+.wrapper h3, .wrapper p{
+    padding:0;
+    margin:0;
+}
+
+.wrapper h3{
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+.wrapper p{
+    font-family: Poppins;
+    font-size: .8rem;
+    font-weight: 300;
+}

@@ -8,7 +8,7 @@ export const CopyRight =()=>{
     return (
         <setion className={classes.container}>
             <div className={classes.wrapper}>
-                <div className={classes.copy}>
+                <div className={classes.copyright__wrapper}>
                     <p>Copyright 2022 @ Peddle Technologies. All right reserved.</p>
                 </div>
             </div>

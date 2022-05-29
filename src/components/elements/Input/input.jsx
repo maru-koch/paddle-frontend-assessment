@@ -1,6 +1,7 @@
 import {useState} from 'react'
+import classes from './input.module.css'
 
-export const Input =({text, name, handleInput})=>{
+export const Input =({placeholder, name, handleInput})=>{
     // 
     const [forData, setForData] = useState({})
 
@@ -13,8 +14,9 @@ export const Input =({text, name, handleInput})=>{
     return (
         <setion>
             <input 
+                className ={classes.userInput}
                 type="text" 
-                placeholder={text} 
+                placeholder={placeholder} 
                 name ={name} 
                 onChange={onChangeHandler}/>
         </setion>

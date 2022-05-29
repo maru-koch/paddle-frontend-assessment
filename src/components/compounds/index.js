@@ -1,1 +1,1 @@
-export * from './compounds'
+export * from './comingSoon'

@@ -1,0 +1,9 @@
+
+
+.wrapper p {
+    color: var(--word-color);
+    font-weight: 300;
+    margin: 0;
+    padding: 20px;
+
+}

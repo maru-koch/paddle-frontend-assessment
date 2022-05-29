@@ -1,0 +1,41 @@
+.container{
+    width: 100%;
+    display:grid;
+    place-items: center;
+}
+
+.email__wrapper{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 80%;
+    background-color:red;
+}
+
+.email__wrapper input, .email__wrapper .btn{
+    position:absolute;
+    border-radius: 100px;
+    border: 0;
+    outline: none;
+   
+}
+
+.email__wrapper input{
+    width: 65%;
+    padding: 16px 40px;
+    font-family: Mulish;
+    font-weight: 200;
+    color: black
+    
+}
+.email__wrapper .btn{
+    padding: 19px 10px;
+    width: 190px;
+    right: 0;
+    
+    font-size: .7rem;
+    background-color:var(--button-color);
+    color: #fff;
+}

@@ -1,8 +1,8 @@
 
 
-import classes from './socialMedia.module.css'
+import classes from './termsOfService.module.css'
 
-export const TermsOfService =()=>{
+export const Terms =()=>{
 
     // displays social media handles
 

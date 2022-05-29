@@ -1,0 +1,30 @@
+.wrapper{
+    padding: 30px 100px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 50px;
+}
+
+.link{
+    text-decoration: none;
+    font-size: .8rem;
+    font-family: Mulish;
+    font-weight: 300;
+    color: #fff
+}
+
+#contact{
+    background-color:var(--button-color);
+    padding: 15px 30px;
+    border-radius: 100px;
+    color: #fff;
+}
+

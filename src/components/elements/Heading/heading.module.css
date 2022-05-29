@@ -1,0 +1,23 @@
+
+.wrapper{
+    text-align:center;
+}
+
+.wrapper h2{
+    font-size: 3rem;
+    font-weight: 700;
+    margin:0;
+    padding:0;
+    color:#fff;
+}
+
+.wrapper p{
+    color:#fff;
+    font-family: Poppins;
+    font-weight: 200;
+    font-size: .95rem;
+}
+
+.wrapper span{
+    font-weight: 500;
+}
