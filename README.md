@@ -18,11 +18,12 @@ This is a landing page for Peddle Technologies built with react.
         - Home
         - About
         - Contact
-        
+
 ## LIBRARIES AND DEPENDENCIES
 - Bootstrap
 - React-Bootstrap
 - Font-Awesome Icons
+- Google Fonts
 - EditorConfig
 
 ## HOW TO RUN THE APPLICATIION

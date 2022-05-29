@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;800&family=Open+Sans:wght@300;400;500;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;1,400&display=swap');
 
 :root{
   --main-color: #1E0D3D;
   --button-color: #2F38C1;
+  --outline-color:#483A5D;
   --accent-color:#E55EF8;
   --title-color:#1F232C;
   --subtitle-color: #888B90;
