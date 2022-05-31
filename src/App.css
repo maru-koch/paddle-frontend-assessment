@@ -12,6 +12,7 @@
   --background-color:#FAFAFA;
   --gradient-color: linear-gradient(90deg, rgba(27, 13, 62, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(34, 62, 113, 1) 100%);
   --circle-1-gradient:linear-gradient(180deg, rgba(125, 44, 121, 1) 0%, rgba(26, 12, 59, 1) 80%, rgba(26, 12, 59, 1) 100%);
+  --gitCard-gradient: linear-gradient(180deg, rgb(78, 28, 125)0%, rgb(73, 45, 137) 80%, rgb(47, 28, 95) 100%);
   --circle-2-background: rgb(33, 56, 108);
   --circle-2-gradient: linear-gradient(180deg, rgba(33, 56, 108, 1) 0%, rgba(56, 21, 78, 1) 69%, rgba(26, 12, 59, 1) 100%);
 

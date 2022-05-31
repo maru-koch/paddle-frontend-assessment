@@ -1,26 +1,61 @@
 
-
-.mealItem{
+.card{
+    max-width: 800px;
+}
+.repoCard{
     display: grid;
     grid-template-columns: 4fr 1fr;
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid rgb(207, 207, 207);
+    background-image: var(--gitCard-gradient);
     flex-wrap: wrap;
     padding: 20px;
+    margin: 40px;
+    border-radius:10px;
+    position: relative;
+    overflow: hidden;
 }
-
+.count{
+    position:absolute;
+    right: 0;
+    top: 0;
+    border-radius:50%;
+    color:#fff;
+    background-color: var(--accent-color);
+    height: 100px;
+    width: 100px;
+    font-size: 2rem;
+    font-family: Poppins;
+    transform: skew(-5deg) translateX(20px) translateY(-20px);
+    display:grid;
+    place-items: center;
+}
+.count::after{
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 50%;
+    color: #fff;
+    background-color: var(--main-color);
+    height: 100px;
+    width: 100px;
+    font-size: 2rem;
+    font-family: Poppins;
+    transform: skew(0deg) translateX(20px) translateY(-20px);
+}
 .desc{
     font-size: 14px;
     font-style: italic;
-    padding: 0;
-    color: #999;
+    padding: 5 0;
+    color: var(--word-color);
     font-family: Mulish;
+    margin: 10px 0;
 }
 
-h3{
-    font-size: 16px;
-    color: var(--word);
+.collection h2{
+    font-size: 1.2rem;
+    color: var(--accent-color);
     font-family: Poppins;
     margin: 0;
 }
@@ -91,7 +126,9 @@ input:focus, button:focus{
     border-radius: 50%;
     height: 100px;
     width: 100px;
-    background-color: var(--main-color)
+    background-color: var(--main-color);
+    margin-right: 30px;
+
 }
 
 .img img{
@@ -107,16 +144,33 @@ input:focus, button:focus{
 
 
 
-.iconHolder i{
+.iconHolder{
     font-size: 15px;
     color: var(--background-color);
     cursor: pointer;
-
+    display: flex;
+    justify-content:flex-start;
+    gap: 10px;
+    margin-right: 20px;
 }
 
 .iconHolder p{
-    font-size: 1.rem;
+    font-size: .8rem;
+    font-family: Poppins;
+    font-weight: 100;
+    margin-top: 30px;
+}
+
+.iconHolder p span{
+    font-size: 1rem;
     font-family: Poppins;
     font-weight: 400;
+    color: var(--word-color);
     margin-top: 20px;
 }
+.selection{
+    display: grid;
+    grid-template-columns: 2fr 4fr 6fr;
+    width: 100%;
+}
+
