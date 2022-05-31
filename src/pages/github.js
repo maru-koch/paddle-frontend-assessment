@@ -1,8 +1,11 @@
 
-export const Github =()=>{
+import { GitRepoInfo } from "../components"
+import {Layout} from '../layouts/layout'
+
+export const GithubInfo =()=>{
     return (
-        <main>
-            <p>Github</p>
-        </main>
+        <Layout>
+            <GitRepoInfo/>
+        </Layout>
     )
 }
