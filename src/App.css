@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;600;800&family=Open+Sans:wght@300;400;500;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;1,400&display=swap');
 :root{
-  --main-color: #1E0D3D;
+  --main-color: #1B0C39;
   --button-color: #2F38C1;
   --outline-color:#493764;
+  --icon-color: #6c30e3;
   --word-color:#9994A3;
   --accent-color:#E55EF8;
   --title-color:#1F232C;
@@ -10,14 +11,25 @@
   --text-color: #1F232C;
   --background-color:#FAFAFA;
   --gradient-color: linear-gradient(90deg, rgba(27, 13, 62, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(34, 62, 113, 1) 100%);
+  --circle-1-gradient:linear-gradient(180deg, rgba(125, 44, 121, 1) 0%, rgba(26, 12, 59, 1) 80%, rgba(26, 12, 59, 1) 100%);
+  --circle-2-background: rgb(33, 56, 108);
+  --circle-2-gradient: linear-gradient(180deg, rgba(33, 56, 108, 1) 0%, rgba(56, 21, 78, 1) 69%, rgba(26, 12, 59, 1) 100%);
 
+--circle-2-gradient:linear-gradient(180deg, rgba(33, 56, 108, 1) 0%, rgba(26, 12, 59, 1) 74%, rgb(30, 13, 67) 100%);
+  --circle-3-background: rgb(122, 62, 41);
+  --circle-3-gradient: linear-gradient(180deg, rgba(122, 62, 41, 1) 0%, rgba(56, 21, 78, 1) 80%, rgba(36, 16, 41, 1) 100%);
 }
 
 /* GLOBAL STYLES */
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body{
-    margin:0 auto;
-    background-color: var(--main-color); 
+ 
 }
 
 h1, h2, h3{

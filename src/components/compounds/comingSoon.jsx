@@ -14,6 +14,14 @@ export const ComingSoon =()=>{
                <TimeBoard/>
                <EmailInput/>
             </div>
+            {/* <div className ={classes.crescent}>
+            </div> */}
+            <div className ={classes.circle} id = {classes.circle1} >
+            </div>
+            <div className ={classes.circle} id = {classes.circle2} >
+            </div>
+            <div className ={classes.circle} id = {classes.circle3} >
+            </div>
         </setion>
     )
 }

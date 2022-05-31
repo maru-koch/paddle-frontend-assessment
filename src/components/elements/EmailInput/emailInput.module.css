@@ -1,17 +1,17 @@
 .container{
     width: 100%;
     display:grid;
+    height:100px;
     place-items: center;
 }
 
 .email__wrapper{
-    margin-top: 40px;
+    margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: relative;
     width: 80%;
-    background-color:red;
 }
 
 .email__wrapper input, .email__wrapper .btn{

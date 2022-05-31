@@ -7,6 +7,7 @@ import {BrowserRouter as Router} from 'react-router-dom'
 export * from './components'
 export * from './layouts'
 export * from './pages'
+export * from './assets'
 
 
 
