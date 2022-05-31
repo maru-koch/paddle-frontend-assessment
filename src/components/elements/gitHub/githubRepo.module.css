@@ -1,0 +1,17 @@
+.mealList{
+    width: 100%;
+    padding: 0;
+}
+
+.mealList ul{
+    padding: 0px 0px;
+}
+
+.mealCard{
+    margin-top: 50px;
+    width: 70vw;
+    padding: 20px 40px;
+
+}
+
+

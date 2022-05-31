@@ -1,7 +1,7 @@
 .container{
     display: grid;
     place-items: center;
-    /* position: relative; */
+    /* position: relative;  */
     overflow: hidden;
 }
 
@@ -41,4 +41,21 @@
     background-image: var(--circle-3-gradient);
     
     
+}
+.half_circle_holder{
+    position: absolute;
+    width: 100%;
+    display:grid;
+    place-items: center;
+    transform: translateY(650px);
+    overflow:hidden;
+    
+
+}
+.half_circle {
+    border-radius: 50%;
+    width: 90vw;
+    height: 90vw;
+    background-color: #fff;
+    border:2px solid lightgrey;
 }

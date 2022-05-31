@@ -5,6 +5,8 @@
     place-items: center;
     margin-top: 150px;
     background-color: transparent;
+    position: relative;
+    overflow: hidden;
 }
 
 .wrapper{

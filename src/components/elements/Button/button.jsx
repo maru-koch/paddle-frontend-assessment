@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import classes from './button.module.css'
 
-export const Button =({text})=>{
+const Button =({text})=>{
     return (
         <button className={`base ${classes.btn}`}>
             {text}
@@ -12,3 +12,5 @@ export const Button =({text})=>{
 Button.propType = {
     text: PropTypes.string
 }
+
+export default Button

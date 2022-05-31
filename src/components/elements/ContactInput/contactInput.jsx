@@ -23,7 +23,8 @@ export const ContactInput = ({label, name, type, placeholder}) =>{
                     type= {type} 
                     placeholder = {placeholder} 
                     name ={name}
-                    onChange={onChangeHandler}/>
+                    onChange={onChangeHandler}
+                    rows = {name === 'textarea' ? '5' :''}/>
             </div>
 
         </div>

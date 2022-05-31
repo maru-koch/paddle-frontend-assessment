@@ -22,6 +22,10 @@ export const ComingSoon =()=>{
             </div>
             <div className ={classes.circle} id = {classes.circle3} >
             </div>
+            {/* <div className ={classes.half_circle_holder}>
+                <div className ={classes.half_circle}>
+                </div>
+            </div> */}
         </setion>
     )
 }

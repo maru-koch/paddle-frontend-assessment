@@ -11,31 +11,17 @@ export const TimeBoard =({time, text}) =>{
     const [second, setSecond] = useState(23)
 
     const startTimer=()=>{
-
-        // increase second by 1 if second is less than 60 else 0
-        setSecond(second > 60? 0 : second + 1);
-
-        //increase minute by 1 if minute is less than 60 else 0
-        setMinute(second === 60? minute + 1 : minute < 60 ? minute: 0);
-
-        // increase hour by 1 if hour is less than 24 else 0
-        setHour(minute === 60?  hour + 1 : hour <= 24 ? hour: 0);
-
-        //increase minute by 1 if minute is less than 60 else 0
-        setDay(hour === 24 && day > 1? day - 1 : 0);
+        // implement timer here
     }
     
- 
-
     useEffect(()=>{
+         setInterval(()=>{}, 1000000);
+         // on component unmount, clean up
+         return ()=>{
 
-        // start clock when component mounts
-        
-        setInterval(()=>{startTimer()}, 1000);
-        // clean up when component unmounts
-        
+         }
 
-    }, [day])
+    },[])
 
     return(
         <section className={classes.container}>
