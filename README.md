@@ -18,19 +18,27 @@ This is a landing page for Peddle Technologies built with react.
         - Home
         - About
         - Contact
-
 ## LIBRARIES AND DEPENDENCIES
 - Bootstrap
 - React-Bootstrap
 - Font-Awesome Icons
 - Google Fonts
 - EditorConfig
-
+- 
+# TASK ONE
 ## HOW TO RUN THE APPLICATIION
-- navigate to the root folder
-- enter npm start in the terminal
+- navigate to the root folder (paddle-frontend-assessment)
+- run npm start in the terminal
+
+# TASK TWO
+- navigate to http://localhost:3000/github
+
+## LIMITATIIONS
+- Limited time
 
 ## IMPROVEMENTS
 - Dockerizing the application
 - Use of CI/CD
 - Testing
+- Making homepage responsive
+- Doing the Blog
