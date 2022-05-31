@@ -32,6 +32,7 @@ This is a landing page for Peddle Technologies built with react.
 
 # TASK TWO
 - navigate to http://localhost:3000/github
+- ![Image](https://github.com/maru-koch/paddle-frontend-assessment/blob/main/src/assets/images/api.png)
 
 ## LIMITATIIONS
 - Limited time
